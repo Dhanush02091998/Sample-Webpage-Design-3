@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+li{
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+#header .nav-list ul li:hover a{
+    font-weight: bold;
+    color: rgb(116, 108, 0);
+}
+#header{
+    position: fixed; 
+    z-index: 2;
+    width: 100vw;   
+    height: auto;
+}
+.header{
+    min-height: 6vh;
+    background-color: rgba(20, 20, 20, 0.479);
+}
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+#header .nav-list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand img{
+    width: 200px;
+}
+.header .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}    
+.nav-address{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(223, 163, 0));
+    padding: 15px 420px;
+    margin: -45px -51px 0px 0px;
+    border-radius: 0 0 0 70px;
+}
+.nav-address p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    color: rgb(55, 0, 255);
+}
+
+.ul-lists{
+    margin-top: 30px;
+}
+
+
+
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(55, 56, 0, 0.658)), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 25px;
+    font-size: 21px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.2s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+    border-radius: 25px;
+}
+.banner-btn a:hover {
+    color: black;
+}  
+
+#feature{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text h1{
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+    text-shadow: 3px 3px red;
+}
+
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    text-align: center;
+}
+.feature-box div{
+    border:5px solid black;
+    margin: 0 20px;
+    box-shadow: 10px 10px;
+}
+.image1{
+    transform: rotate(20deg);
+}
+.image2{
+    transform: rotate(20deg);
+}
+
+
